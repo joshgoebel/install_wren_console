@@ -1,5 +1,5 @@
 name: 'Install Wren Console'
-# description: 'Greet someone'
+description: 'Install Wren Console CLI tool'
 # inputs:
 #   who-to-greet:  # id of input
 #     description: 'Who to greet'
@@ -9,6 +9,9 @@ name: 'Install Wren Console'
 #   random-number:
 #     description: "Random number"
 #     value: ${{ steps.random-number-generator.outputs.random-number }}
+branding:
+  icon: package
+  color: blue
 runs:
   using: "composite"
   steps:
